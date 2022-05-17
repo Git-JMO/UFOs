@@ -10,4 +10,10 @@
    * ![Filter_Example](Resources/Filter_Example.png) 
 
 ## Summary: 
-   * Like any new design, there can exist drawbacks that need to be improved. One big drawback is the case sensitive nature of the search. For instance, drawback of this new design and two recommendations for further development.
+   * Like any new design, there can exist drawbacks that need to be improved. One big drawback is the case sensitive nature of the search and a lack of instruction for the user regarding parameters. For instance, if we conducted the same search as previously demonstrated but instead capitalized the "r" in reedville we would retrieve 0 results. See below. 
+     * ![Case_Example](Resources/Case_sensitive.png)
+   * Below are three recommendations for further development.
+     * 1) In the HTML file, write a disclaimer for the user indicating searches are case sensitive and to make the sure the beginning letter of the word is lowercased. This will mitigate the number of failed filtered searches. 
+     * 2) In the HTML file, provide examples of "shapes". Unless the user is fully familiar with the data source, the "shape" filter can easily cause searches to fail if the user is not provided with examples of which shapes are out there such as "light", "triangle", "flash", etc. Perhaps a simple drop down menu can help. 
+     * 3) Create a "clear all filters" button to make it easier for the user to reset and conduct additional searches. This will save the user's time deleting words from the search boxes. 
+ 
