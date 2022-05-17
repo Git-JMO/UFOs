@@ -6,6 +6,8 @@
 ## Results: 
    * Using JavaScript and HTML, we modified the code in the index.html and app.js files to create and visualize additional table filters on the webpage. As depicted in the image below (outlined by the red square), we created filters for the date, city, state, country, and shape to give the user the ability to create even more refined searches within the UFOs data.
    * ![Site_W_Frame](Resources/Site_w_red_box.png) 
-   * Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
+   * Below is an example of how the filtering process works. Of note, the numbered circles are strictly for reference purposes and do not show up on the webpage. In the image below, we filtered our search to show only UFO sightings that occurred on 1/4/2010 in Reedville, Virginia with the shape of "changing." In this case, searching for the shape of "changing" was unnecessary since there was only one event in reedville, virginia on this day but was done for demonstration purposes. 
+   * ![Filter_Example](Resources/Filter_Example.png) 
 
-## Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
+## Summary: 
+   * Like any new design, there can exist drawbacks that need to be improved. One big drawback is the case sensitive nature of the search. For instance, drawback of this new design and two recommendations for further development.
